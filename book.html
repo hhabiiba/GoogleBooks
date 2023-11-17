@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book.css">
+    <title>Google Books API</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Finder</h1>  
+    </div>
+
+
+<main>
+    <section class="search-container">
+        <input  id="searchInput"   type="text"  placeholder= "Search for books, authors and  publishers....">
+        <button id="button" >Search</button>
+        <button id = "post"> POST</button>
+    </section>
+     <div class="results"></div>
+</main>
+ 
+<div class = "form">
+ <!-- POST Form Section -->
+ <section class="post-form">
+    <h2>Post a Message~..</h2>
+    <form id="postForm">
+        <label for="nameid">Name:</label>
+      <input type="text" id="nameid" name="nameInput" required>
+
+        <label for="messageid">Message:</label>
+        <textarea id="messageid" name="messageInput" rows="4" required></textarea>
+  
+        <button id="submit">Send</button>
+    </form>
+</section>
+</div>
+
+    <footer>
+       <p>&copy; 2023 Book Finder | Powered by Google Books API</p>
+
+<div class=" image">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/008/626/954/small/trendy-bookmark-concepts-vector.jpg"  height="50"  width="50">
+        </div>
+
+      
+    </footer>
+    
+</body>
+<script src="book.js"></script>
+
+
+</html>
