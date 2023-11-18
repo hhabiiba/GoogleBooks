@@ -35,7 +35,7 @@ function searchClickButton (){
                 const infoLink = document.createElement("a");
                 infoLink.href = data.items[i].volumeInfo.infoLink;
                 infoLink.target = "_blank"; // Opens link in a new tab duh!
-                infoLink.textContent = "View on Google Books:)";
+                infoLink.textContent = "Click to view on Google Books:)";
                 infoLink.classList.add("info-link"); 
                 
                 // Creatin' elements for book title, author, img, publisher n text snippet..^_^

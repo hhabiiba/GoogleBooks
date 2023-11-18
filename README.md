@@ -4,6 +4,7 @@ How It Functions💻
 Search for Books:🔎📚
 The homepage features an input field labeled "Search," accompanied by a corresponding "Search" button.
 To locate books on a specific topic, input the desired topic into the designated field and click the "Search" button.
+I've set a  'book title', 'author', 'img', 'publisher', 'text snippet', and an 'info link' as well which will redirect user to a selected book page on click. 
 
 Google Books API Integration:🔗
 Upon clicking the "Search" button, the application initiates a GET request to the Google Books API at https://www.googleapis.com/books/v1/volumes?q=${searchTerm}.
