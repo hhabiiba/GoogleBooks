@@ -16,26 +16,27 @@
     <section class="search-container">
         <input  id="searchInput"   type="text"  placeholder= "Search for books, authors and  publishers....">
         <button id="button" >Search</button>
-        <button id = "post"> POST</button>
+        
     </section>
+    <div class = "form">
+        <!-- POST Form Section -->
+        <section class="post-form">
+           <h2>Post a Message~..</h2>
+           <form id="postForm">
+               <label for="nameid">Name:</label>
+             <input type="text" id="nameid" name="nameInput" required>
+       
+               <label for="messageid">Message:</label>
+               <textarea id="messageid" name="messageInput" rows="4" required></textarea>
+         
+               <button id="submit">POST</button>
+           </form>
+       </section>
+       </div>
+       
      <div class="results"></div>
 </main>
  
-<div class = "form">
- <!-- POST Form Section -->
- <section class="post-form">
-    <h2>Post a Message~..</h2>
-    <form id="postForm">
-        <label for="nameid">Name:</label>
-      <input type="text" id="nameid" name="nameInput" required>
-
-        <label for="messageid">Message:</label>
-        <textarea id="messageid" name="messageInput" rows="4" required></textarea>
-  
-        <button id="submit">Send</button>
-    </form>
-</section>
-</div>
 
     <footer>
        <p>&copy; 2023 Book Finder | Powered by Google Books API</p>
